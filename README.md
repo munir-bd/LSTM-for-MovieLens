@@ -3,7 +3,7 @@ Project focus on LSTM model for MovieLens.
 
 Data preproced by TA (Mr. Kyi Thar) of the course (https://github.com/kyithar/class) 
 
-We analyze EDA and implement our LSTM model for preproced MovieLens dataset.
+We analyze EDA and implement our LSTM model for preprocessed MovieLens dataset.
 
 Predicting Popularity Scores by utilizing Recurrent Neural Network
 (RNN)
