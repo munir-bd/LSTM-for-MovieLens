@@ -1,0 +1,170 @@
+C:\Users\munir\Anaconda3\envs\tensorflow\python.exe "E:/WorkStation/CourseStation/2017/Semester_2/Network Simulation_CSE840300/project/ns_project/ns_lstm.py"
+Using TensorFlow backend.
+values  [[  2.10000000e+01   1.00000000e+00   3.00000000e+00 ...,   1.70000000e+01
+    1.99500000e+03   9.14000000e+03]
+ [  4.70000000e+01   1.00000000e+00   5.00000000e+00 ...,   3.00000000e+01
+    1.99500000e+03   9.14000000e+03]
+ [  1.07900000e+03   1.00000000e+00   3.00000000e+00 ...,   3.80000000e+01
+    1.98800000e+03   9.14000000e+03]
+ ..., 
+ [  1.75000000e+02   1.00000000e+00   4.00000000e+00 ...,   1.20000000e+01
+    1.99500000e+03   9.56400000e+03]
+ [  1.85000000e+02   2.00000000e+00   4.00000000e+00 ...,   6.00000000e+00
+    1.99500000e+03   9.56400000e+03]
+ [  1.86000000e+02   2.00000000e+00   3.50000000e+00 ...,   3.00000000e+00
+    1.99500000e+03   9.56400000e+03]]
+   var4(t-1)  var2(t)  var3(t)   var4(t)   var5(t)   var6(t)  var7(t)
+1   0.248947      0.0     1.00  0.248947  0.180124  0.983051      0.0
+2   0.248947      0.0     0.50  0.248947  0.229814  0.864407      0.0
+3   0.248947      0.0     0.75  0.248947  0.571429  0.915253      0.0
+4   0.248947      0.0     0.50  0.248947  0.099379  0.983051      0.0
+5   0.248947      0.0     1.00  0.248947  0.180124  0.983051      0.0
+(700, 1, 6) (700,) (299, 1, 6) (299,)
+Train on 700 samples, validate on 299 samples
+Epoch 1/50
+2017-12-18 10:42:33.486558: W c:\tf_jenkins\home\workspace\release-win\m\windows\py\35\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE instructions, but these are available on your machine and could speed up CPU computations.
+2017-12-18 10:42:33.503747: W c:\tf_jenkins\home\workspace\release-win\m\windows\py\35\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE2 instructions, but these are available on your machine and could speed up CPU computations.
+2017-12-18 10:42:33.504448: W c:\tf_jenkins\home\workspace\release-win\m\windows\py\35\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE3 instructions, but these are available on your machine and could speed up CPU computations.
+2017-12-18 10:42:33.505133: W c:\tf_jenkins\home\workspace\release-win\m\windows\py\35\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.1 instructions, but these are available on your machine and could speed up CPU computations.
+2017-12-18 10:42:33.505906: W c:\tf_jenkins\home\workspace\release-win\m\windows\py\35\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.2 instructions, but these are available on your machine and could speed up CPU computations.
+2017-12-18 10:42:33.507764: W c:\tf_jenkins\home\workspace\release-win\m\windows\py\35\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX instructions, but these are available on your machine and could speed up CPU computations.
+2017-12-18 10:42:33.508773: W c:\tf_jenkins\home\workspace\release-win\m\windows\py\35\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX2 instructions, but these are available on your machine and could speed up CPU computations.
+2017-12-18 10:42:33.509575: W c:\tf_jenkins\home\workspace\release-win\m\windows\py\35\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use FMA instructions, but these are available on your machine and could speed up CPU computations.
+1s - loss: 0.9217 - val_loss: 0.9211
+Epoch 2/50
+0s - loss: 0.8419 - val_loss: 0.8359
+Epoch 3/50
+0s - loss: 0.7599 - val_loss: 0.7466
+Epoch 4/50
+0s - loss: 0.6726 - val_loss: 0.6497
+Epoch 5/50
+0s - loss: 0.5770 - val_loss: 0.5419
+Epoch 6/50
+0s - loss: 0.4697 - val_loss: 0.4195
+Epoch 7/50
+0s - loss: 0.3474 - val_loss: 0.2792
+Epoch 8/50
+0s - loss: 0.2092 - val_loss: 0.1260
+Epoch 9/50
+0s - loss: 0.0951 - val_loss: 0.0776
+Epoch 10/50
+0s - loss: 0.1006 - val_loss: 0.0793
+Epoch 11/50
+0s - loss: 0.0950 - val_loss: 0.0696
+Epoch 12/50
+0s - loss: 0.0859 - val_loss: 0.0719
+Epoch 13/50
+0s - loss: 0.0802 - val_loss: 0.0660
+Epoch 14/50
+0s - loss: 0.0766 - val_loss: 0.0628
+Epoch 15/50
+0s - loss: 0.0740 - val_loss: 0.0613
+Epoch 16/50
+0s - loss: 0.0703 - val_loss: 0.0596
+Epoch 17/50
+0s - loss: 0.0666 - val_loss: 0.0570
+Epoch 18/50
+0s - loss: 0.0633 - val_loss: 0.0543
+Epoch 19/50
+0s - loss: 0.0602 - val_loss: 0.0519
+Epoch 20/50
+0s - loss: 0.0570 - val_loss: 0.0490
+Epoch 21/50
+0s - loss: 0.0542 - val_loss: 0.0466
+Epoch 22/50
+0s - loss: 0.0516 - val_loss: 0.0448
+Epoch 23/50
+0s - loss: 0.0490 - val_loss: 0.0421
+Epoch 24/50
+0s - loss: 0.0469 - val_loss: 0.0397
+Epoch 25/50
+0s - loss: 0.0453 - val_loss: 0.0380
+Epoch 26/50
+0s - loss: 0.0440 - val_loss: 0.0369
+Epoch 27/50
+0s - loss: 0.0423 - val_loss: 0.0355
+Epoch 28/50
+0s - loss: 0.0412 - val_loss: 0.0346
+Epoch 29/50
+0s - loss: 0.0402 - val_loss: 0.0334
+Epoch 30/50
+0s - loss: 0.0396 - val_loss: 0.0322
+Epoch 31/50
+0s - loss: 0.0391 - val_loss: 0.0312
+Epoch 32/50
+0s - loss: 0.0392 - val_loss: 0.0310
+Epoch 33/50
+0s - loss: 0.0387 - val_loss: 0.0305
+Epoch 34/50
+0s - loss: 0.0385 - val_loss: 0.0302
+Epoch 35/50
+0s - loss: 0.0383 - val_loss: 0.0300
+Epoch 36/50
+0s - loss: 0.0382 - val_loss: 0.0303
+Epoch 37/50
+0s - loss: 0.0380 - val_loss: 0.0305
+Epoch 38/50
+0s - loss: 0.0379 - val_loss: 0.0309
+Epoch 39/50
+0s - loss: 0.0377 - val_loss: 0.0309
+Epoch 40/50
+0s - loss: 0.0375 - val_loss: 0.0308
+Epoch 41/50
+0s - loss: 0.0375 - val_loss: 0.0309
+Epoch 42/50
+0s - loss: 0.0375 - val_loss: 0.0314
+Epoch 43/50
+0s - loss: 0.0375 - val_loss: 0.0321
+Epoch 44/50
+0s - loss: 0.0373 - val_loss: 0.0322
+Epoch 45/50
+0s - loss: 0.0371 - val_loss: 0.0320
+Epoch 46/50
+0s - loss: 0.0372 - val_loss: 0.0321
+Epoch 47/50
+0s - loss: 0.0371 - val_loss: 0.0322
+Epoch 48/50
+0s - loss: 0.0371 - val_loss: 0.0323
+Epoch 49/50
+0s - loss: 0.0371 - val_loss: 0.0326
+Epoch 50/50
+0s - loss: 0.0371 - val_loss: 0.0331
+No handles with labels found to put in legend.
+yhat (299, 1)
+test_X (299, 6)
+inv_yhat [[ 0.95405275  0.125       0.83333337  0.00280899  0.06832299  0.94915009]
+ [ 0.98635769  0.4375      0.6875      0.00983146  0.5714286   0.93220139]
+ [ 0.97044551  0.1875      0.6875      0.00421348  0.31677017  0.94915009]
+ ..., 
+ [ 0.96078426  0.          0.75        0.00629862  0.06832299  0.9830513 ]
+ [ 0.96327984  0.0625      0.75        0.01400173  0.0310559   0.9830513 ]
+ [ 0.96225876  0.0625      0.625       0.01400173  0.01242236  0.9830513 ]]
+inv_yhat (299, 6)
+After inv_yhat [[  9.70810473e-01   9.37500000e-02   8.33333373e-01   2.21089533e-04
+    6.83229864e-02   9.49150085e-01]
+ [  9.85485792e-01   3.28125000e-01   6.87500000e-01   7.73813284e-04
+    5.71428597e-01   9.32201385e-01]
+ [  9.78257298e-01   1.40625000e-01   6.87500000e-01   3.31634248e-04
+    3.16770166e-01   9.49150085e-01]
+ ..., 
+ [  9.73868430e-01   0.00000000e+00   7.50000000e-01   4.95750690e-04
+    6.83229864e-02   9.83051300e-01]
+ [  9.75002170e-01   4.68750000e-02   7.50000000e-01   1.10204623e-03
+    3.10559012e-02   9.83051300e-01]
+ [  9.74538326e-01   4.68750000e-02   6.25000000e-01   1.10204623e-03
+    1.24223605e-02   9.83051300e-01]]
+After inv_yhat (299, 6)
+Test RMSE: 0.024
+
+Process finished with exit code 0
+
+
+30 : Test RMSE: 0.024
+50: Test RMSE: 0.027
+70: Test RMSE: 0.020
+100: Test RMSE: 0.017
+150: Test RMSE: 0.021
+
+maincsv_reader.py
+moviecsv_reader.py
+ratingcsv_reader.py
