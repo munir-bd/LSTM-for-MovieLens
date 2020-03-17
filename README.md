@@ -1,7 +1,7 @@
 # LSTM-for-MovieLens
 Project focus on LSTM model for MovieLens. 
 
-Data preprocessed by TA (Mr. Kyi Thar) of the course (https://github.com/kyithar/class) 
+Data preprocessed (https://github.com/kyithar/class) by TA (Mr. Kyi Thar) of the course CSE 8403-00: Network Simulations
 
 We analyze EDA and implement our LSTM model for preprocessed MovieLens dataset.
 
