@@ -8,8 +8,11 @@ We analyze EDA and implement our LSTM model for preprocessed MovieLens dataset.
 Predicting Popularity Scores by utilizing Recurrent Neural Network
 (RNN)
 
+Final project of CSE 8403-00: Network Simulations
 
 Project Description
+
+https://github.com/munir-bd/LSTM-for-MovieLens/blob/master/Final_Project.pdf
 
 In this project, you may need to predict the popularity score of movies, where the main objective is to
 improve the prediction accuracy as much as you can. In order to achieve this goal, you can implement the
